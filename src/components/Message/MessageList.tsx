@@ -6,7 +6,6 @@ interface MessageListProps {
 }
 
 const MessageList: React.FC<MessageListProps> = React.memo(({ messages }) => {
-  console.log(messages);
   return (
     <div>
       {messages.map((msg) => (
